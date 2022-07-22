@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>DogPhotoApp</title>
+</head>
+<body>
+	<h1>DogPhotoApp</h1>
+	<main>
+		<section>
+			<h2>Dog Photos</h2>
+			<p>Click here to view more <a target="_blank" href="default.html" >dog photos</a>.</p>
+			<a target="_blank" href="default.html"><img src="img/cute-dog.jpg" alt="A cute dog"></a>
+		</section>
+		<section>
+			<h2>Dog lists</h2>
+			<h3>Things dogs love:</h3>
+			<ul>
+				<li>exploring</li>
+				<li>running</li>
+				<li>balls</li>
+			</ul>
+			<figure>
+				<img src="img/The-dog-playing-a-ball.jpg" alt="The dog is playing a ball.">
+				<figcaption>Dogs <em>love</em> balls.</figcaption>
+			</figure>
+			<h3>Top 3 things dogs hate:</h3>
+			<ol>
+				<li>Being Left On Their Own</li>
+				<li>Scary Fireworks</li>
+				<li>Being Bored</li>
+			</ol>
+			<figure>
+				<img src="img/An-angry-dog.png" alt="An angry dog.">
+				<figcaption>An <strong>angry</strong> dog.</figcaption>
+			</figure>
+		</section>
+		<section>
+			<h2>Dog Form</h2>
+			<form action="default.html">
+				<fieldset>
+					<legend>Is your dog an indoor or outdoor dog?</legend>
+					<label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" >indoor</label>
+					<label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor" >outdoor</label>
+				</fieldset>
+				<fieldset>
+					<legend>What's your dog's personality?</legend>
+					<label><input id="loving" type="checkbox" name="personality" value="loving">Loving</label>
+					<label><input id="lazy" type="checkbox" name="personality" value="lazy">Lazy</label> 
+					<label><input id="energetic" type="checkbox" name="personality" value="energetic">Energetic</label>
+				</fieldset>
+				<input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>No Copyright - <a href="aDogPhotoApp.html">yuzhencode</a></p>
+	</footer>
+</body>
+</html>
